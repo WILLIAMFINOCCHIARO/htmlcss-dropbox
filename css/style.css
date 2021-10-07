@@ -72,6 +72,24 @@ nav {
 
 /* /jambolay */
 
+/* main lay */
+
+.sectfirst {
+  margin-top:200px;
+}
+
+.buttonstwo input {
+  display: inline-block;
+
+}
+
+
+
+/* /mainlay */
+
+
+
+
 /* footer lay */
 .footer {
   height:500px;
@@ -156,6 +174,8 @@ nav ul li a {
 
 
 
+
+/* /maincont */
 /* /content */
 
 
@@ -183,7 +203,6 @@ nav ul li a {
 
 
 
-.debug main
 
 .debug footer {
   background-color: springgreen;
