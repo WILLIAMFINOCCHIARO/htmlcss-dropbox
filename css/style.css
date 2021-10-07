@@ -85,8 +85,8 @@ nav {
  /* three rows lay */
 
 .box {
-  width: calc(80% / 3);
-  margin:0 30px;
+  width: calc(90% / 3);
+  margin:0 40px 20px 0;
   float: left;
 }
 
