@@ -3,3 +3,68 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* layout */
+
+/* clearfix */
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* header */
+header,nav {
+  height:80px;
+}
+
+.contenitor {
+  width: 80%;
+  margin:0 auto;
+}
+
+.logo,.accedi {
+  width: calc(100%/3);
+  height: 100%;
+  display: inline-block;
+}
+
+/* jambo */
+.jambo {
+  height: 650px;
+}
+
+
+
+
+
+
+/* layout */
+
+
+
+
+
+
+
+
+/* debug */
+.debug header {
+  background-color: purple;
+}
+
+
+.debug .logo {
+  background-color: red;
+
+}
+
+.debug .accedi {
+  background-color: yellow;
+}
+
+
+.debug .jambo {
+  background-color: midnightblue;
+}
