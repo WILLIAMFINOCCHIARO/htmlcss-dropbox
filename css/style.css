@@ -102,6 +102,45 @@ nav {
 }
 
 
+/* endrows lay */
+
+.endrow {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.endrow .headerteam {
+  text-align: center;
+  border:1px solid lightgray;
+  height: 40px;
+  line-height: 40px;
+}
+
+
+
+.endrow {
+  border:1px solid lightgray;
+}
+
+.endrow .enterprise {
+  width: 90%;
+}
+
+.endrow .enterprise h2 {
+  margin-top: 20px;
+}
+
+.linked,.enterprise {
+  float: left;
+}
+
+
+/* /endrowslay */
+
+
+
+
+
 /* /mainlay */
 
 
@@ -291,6 +330,14 @@ nav ul li a {
   color:mediumblue
 }
 /* /simbols listsecond sectfirts */
+
+
+/* endrows cont */
+
+
+
+/* /endrowscont */
+
 
 
 /* /maincont */
