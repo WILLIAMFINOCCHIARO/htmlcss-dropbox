@@ -86,6 +86,7 @@ nav {
 
 .box {
   width: calc(90% / 3);
+  height: 950px;
   margin:0 40px 20px 0;
   float: left;
 }
@@ -208,6 +209,8 @@ nav ul li a {
   font-size: 20px;
   text-transform: capitalize;
   text-align: center;
+  height: 40px;
+  line-height: 40px;
 }
 
 
@@ -217,6 +220,7 @@ nav ul li a {
   font-weight:800;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding-bottom: 5px;
+  padding-top: 20px;
 }
 
  
@@ -234,25 +238,23 @@ nav ul li a {
 
 .col ul li {
   list-style: none;
-  line-height: 20px;
-  margin-top: 10px;
+  line-height: 15px;
 }
 
 .col ul {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .col .blu {
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   background-color: mediumblue;
-  padding:5px 15px;
+  padding:10px 25px;
   text-decoration: none;
 }
 .col i {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 
@@ -272,13 +274,24 @@ nav ul li a {
   font-size: 15px;
   font-weight:800;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
 .col .listsecond li {
-  line-height: 20px;;
+  line-height: 45px;;
 
 }
+
+.col #listnone {
+  display: none;
+}
+
+
+/* simbols listsecond sectfirst */
+.listsecond b {
+  color:mediumblue
+}
+/* /simbols listsecond sectfirts */
+
 
 /* /maincont */
 /* /content */
