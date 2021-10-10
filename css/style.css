@@ -139,7 +139,8 @@ nav {
 }
 
 .endrow .boxteam {
-  width: 100%;
+  width: 95%;
+  margin:0 auto;
 }
 
 .endrow .enterprise h2 {
@@ -150,20 +151,52 @@ nav {
   float: left;
 }
 
+.linked  {
+  background-color:mediumblue;
+  font-size: 15px;
+  font-weight: 800;
+  padding:10px 60px;
+  margin-top: 20px;
+}
+
+.linked a {
+  color:white;
+  text-decoration: none;
+
+}
 
 /* /endrowslay */
 
 
 /* secondsectionlay */
-.textsecond,.endimage img {
-  width: 50%;
-  float: right;
-}
 
 .secondsection {
   padding-top: 70px;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
+
+.endimage img {
+  width: 50%;
+  float: left;
+}
+
+.textsecond {
+  width: 45%;
+  float: right;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.textsecond a {
+  color: black;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 5px 20px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+
 
 /* /secondsectionlay */
 
@@ -267,6 +300,7 @@ nav ul li a {
 
 
 /* main cont */
+
 
 .sectfirst>h1 {
   font-size: 50px;
@@ -372,7 +406,44 @@ nav ul li a {
 
 
 
+.boxteam .enterprise h2 {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.boxteam .enterprise p {
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.boxteam .enterprise :nth-child(3){
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
 /* /endrowscont */
+
+
+/* secondsectioncontent */
+
+.textsecond h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.textsecond p {
+  font-weight: 200;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+/* //secondsectioncontent */
+
+
+
+
 
 
 
