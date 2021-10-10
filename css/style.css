@@ -44,6 +44,14 @@ nav {
   display: inline-block;
 }
 
+.accedi .inizia {
+  color: white;
+  font-size: 20px;
+  background-color: mediumblue;
+  padding:10px 25px;
+  text-decoration: none;
+}
+
 .logo ul li img {
   vertical-align: text-bottom;
 }
@@ -203,17 +211,25 @@ nav {
 
 /* thirdsectionlay */
 
+.secthird {
+  margin-bottom: 150px;
+}
+
+
 .secthird .column {
-  width: calc(100% / 3 - 40px);
-  margin:20px 20px;
+  width: calc(100% / 3 - 60px);
+  margin:20px 30px 0 0;
   float: left;
 }
 
-.lineimage img {
+.column .lineimage img {
   width: 100%;
+  margin-bottom: 10px;
 }
 
-
+.column .undertext p {
+  margin-top: 20px;
+}
 
 
 /* thirdsectionlay */
@@ -442,10 +458,21 @@ nav ul li a {
 /* //secondsectioncontent */
 
 
+/* thirdsectioncont */
 
+.secthird h1 {
+  font-size: 40px;
+  font-weight: 900;
+} 
 
+.column h2 {
+  font-weight: 700;
+}
 
-
+.underline>span {
+  border-bottom: 2px solid gray;
+}
+/* //thirdsectioncont */
 
 /* /maincont */
 /* /content */
