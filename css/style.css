@@ -105,7 +105,7 @@ nav {
 
 .box {
   width: calc(100% / 3 - 27px);
-  height: 950px;
+  height: 1100px;
   margin:0 40px 20px 0;
   float: left;
 }
