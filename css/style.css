@@ -350,7 +350,7 @@ nav ul li a {
   font-size: 30px;
   font-weight:800;
   padding-bottom: 5px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
  
@@ -368,10 +368,11 @@ nav ul li a {
 
 .col ul li {
   list-style: none;
-  line-height: 15px;
+  line-height: 50px;
 }
 
 .col ul {
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -382,7 +383,7 @@ nav ul li a {
   padding:10px 25px;
   text-decoration: none;
 }
-.col i {
+.col div {
   display: inline-block;
   margin-top: 40px;
 }
@@ -396,13 +397,14 @@ nav ul li a {
 .col hr {
   width: 20%;
   color:lightgray;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .col h3 {
   font-size: 15px;
   font-weight:800;
+  margin-bottom: 20px;
 }
 
 
