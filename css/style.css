@@ -77,10 +77,11 @@ nav {
 }
 
 .jambloco #title {
-  font-size: 60px;
+  font-size: 65px;
   font-weight: 600;
   padding-top:50px;
   margin-bottom:50px;
+  line-height: 100px;
 }
 
 .imgfirst img {
@@ -109,7 +110,7 @@ nav {
 
 .box {
   width: calc(100% / 3 - 27px);
-  height: 1100px;
+  height: 1200px;
   margin:0 40px 20px 0;
   float: left;
 }
@@ -393,6 +394,11 @@ nav {
   margin-bottom: 20px;
 }
 
+.sevensection span {
+  display: inline-block;
+  margin-top: 100px;
+}
+
 /* /footerlay */
 
 /* layout */
@@ -420,10 +426,6 @@ nav ul li a {
 /* jambo cont  */
 
 
-.jambloco h1 {
-  font-size: 90px;
-  line-height: 100px;
-}
 
 .textfirst p {
   color:#292f35;
@@ -478,6 +480,12 @@ nav ul li a {
 
 /* row first  */
 
+.box .row {
+  width: 90%;
+  margin:0 auto;
+}
+
+
 .line p {
   font-size: 20px;
   text-transform: capitalize;
@@ -500,18 +508,21 @@ nav ul li a {
 .col>span {
   display: block;
   color: gray;
-  font-weight: 700;
+  font-weight: 400;
   padding-top:10px;
 }
 
-.col :nth-child(2) {
+.col .black {
   color: black;
+  font-weight: 700;
 }
 
 .col ul li {
   list-style: none;
-  line-height: 50px;
+  margin-top: 50px;
+  text-indent: -12px;
 }
+
 
 .col ul {
   margin-top: 50px;
@@ -522,7 +533,7 @@ nav ul li a {
   color: white;
   font-size: 20px;
   background-color: mediumblue;
-  padding:10px 25px;
+  padding:5px 15px;
   text-decoration: none;
 }
 .col div {
@@ -551,7 +562,7 @@ nav ul li a {
 
 
 .col .listsecond li {
-  line-height: 45px;
+  margin-top: 45px;
 }
 
 
