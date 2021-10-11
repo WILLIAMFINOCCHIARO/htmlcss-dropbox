@@ -234,7 +234,118 @@ nav {
 }
 
 
-/* thirdsectionlay */
+/* foursectionlay */
+
+.foursection h1,.foursection .due {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.foursection .due {
+  margin-bottom: 20px;
+}
+
+.foursection .scatolacentrale {
+  margin-top: 30px;
+  background-color: lightgray;
+  float: left;
+}
+.scatolacentrale img {
+  width: 20%;
+}
+
+.foursection .scatolaleft,
+.foursection .scatolaright 
+{
+  width: 25%;
+}
+
+.scatolaleft img,.scatolaright img {
+  width: 25%;
+}
+
+.scatolaleft {
+  float: left;
+}
+.scatolaright {
+  float: right;
+}
+
+/* foursectionlay */
+
+
+/* fivesectionlay */
+.fivesection {
+  height: 300px;
+  background-color: #b4d0e7;
+  position: relative;
+}
+
+
+.test,.linkfive {
+  display: inline-block;
+}
+
+
+
+.test span {
+  color:#61082b;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.test {
+  width: 40%;
+  margin-top: 120px;
+}
+  
+.linkfive {
+  float:right;
+  line-height: 300px;
+}
+
+.linkfive a {
+  color: black;
+  font-weight: 400;
+  background-color: white;
+  text-decoration: none;
+  padding: 5px 35px;
+}
+
+
+/* /fivesectionlay */
+
+
+/* sixsection */
+
+.sixsection {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.sixsection h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.sixsection hr {
+  color: lightgray;
+}
+
+.sixsection div {
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sixsection div i {
+  margin-left:550px;
+}
+
+
+
+/* /sixsection */
 
 
 
@@ -244,11 +355,39 @@ nav {
 
 
 /* footer lay */
-.footer {
-  height:500px;
+
+.contenitorfooter {
+  width: 90%;
+  margin: 0 auto;
 }
 
+.sevensection {
+  height:400px;
+  background-color: #000000;
+}
 
+.sevensection div {
+  padding-top: 40px;
+}
+
+.sevensection div ul  {
+  width: calc(100% / 5);
+  float: left;
+}
+
+.sevensection div ul li {
+  line-height: 25px;
+}
+
+.sevensection li,.sevensection span {
+  color:white;
+  list-style: none;
+}
+
+.sevensection div ul li h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
 
 /* /footerlay */
 
@@ -266,9 +405,6 @@ nav .logo ul li, nav .accedi ul li {
   list-style: none;
   margin:0 10px;
 }
-
-
-
 nav ul li a {
   color: black;
   font-size: 20px;
@@ -507,6 +643,6 @@ nav ul li a {
 
 
 
-.debug footer {
+/* .debug footer {
   background-color: springgreen;
-}
+} */
