@@ -239,13 +239,17 @@ nav {
 
 /* foursectionlay */
 
+
 .foursection h1,.foursection .due {
   font-size: 40px;
   font-weight: 700;
 }
 
 .foursection a {
+  font-weight: 600;
   color: blue;
+  display: block;
+  margin-bottom: 50px;
 }
 
 .foursection .due {
@@ -253,29 +257,81 @@ nav {
 }
 
 .foursection .scatolacentrale {
-  margin-top: 30px;
-  background-color: lightgray;
+  width: 40vw;
+  height: 70vh;
+  background-color:rgba(245, 244, 244, 0.808);
   float: left;
 }
+
+.scatolacentrale .containercentral {
+  width: 80%;
+  margin:0 auto;
+}
+
+
 .scatolacentrale img {
   width: 20%;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-.foursection .scatolaleft,
-.foursection .scatolaright {
-  width: 25%;
+.scatolacentrale hr {
+  color: lightgray;
+  width: 10%;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
-.scatolaleft img,.scatolaright img {
-  width: 25%;
+
+.containercentral p {
+  margin-bottom: 40px;
 }
 
-.scatolaleft {
+.containercentral span {
+  display: block;
+  margin-bottom: 80px;
+}
+
+ /* scatole laterali  */
+
+
+.scatolaleft  {
+  width: 30vw;
+  height: 70vh;
+  border: 1px solid black;
   float: left;
 }
-.scatolaright {
+
+.scatolaleft div,.scatolaright div {
+  width: 50%;
+  height: 50%;
+  border: 1px solid black;
+  float: left;
+  position: relative;
+}
+
+.scatolaleft div img,.scatolaright div img {
+  width: 40%;
+  height: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.scatolaright  {
+  width: 30vw;
+  height: 70vh;
+  border: 1px solid black;
   float: right;
 }
+
+
+/* //scatole laterali */
+
+
+
 
 /* foursectionlay */
 
