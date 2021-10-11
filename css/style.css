@@ -298,14 +298,12 @@ nav {
 .scatolaleft  {
   width: 30vw;
   height: 70vh;
-  border: 1px solid black;
   float: left;
 }
 
 .scatolaleft div,.scatolaright div {
   width: 50%;
   height: 50%;
-  border: 1px solid black;
   float: left;
   position: relative;
 }
@@ -327,6 +325,48 @@ nav {
   float: right;
 }
 
+
+
+/* background scatole  */
+.scatolaleft :nth-child(1){
+  background-color: green;
+}
+
+.scatolaleft :nth-child(2){
+  background-color: blueviolet;
+}
+.scatolaleft :nth-child(3){
+  background-color: chartreuse;
+}
+.scatolaleft :nth-child(4) {
+  background-color: darkred;
+}
+.scatolaleft :nth-child(5) {
+  background-color: gold;
+}
+.scatolaleft :nth-child(6) {
+  background-color: red;
+}
+
+.scatolaright :nth-child(1){
+  background-color:teal;
+}
+
+.scatolaright :nth-child(2){
+  background-color: yellow;
+}
+.scatolaright :nth-child(3){
+  background-color: orangered;
+}
+.scatolaright :nth-child(4) {
+  background-color: black;
+}
+.scatolaright :nth-child(5) {
+  background-color: palevioletred;
+}
+.scatolaleft :nth-child(6) {
+  background-color: lightgreen;
+}
 
 /* //scatole laterali */
 
