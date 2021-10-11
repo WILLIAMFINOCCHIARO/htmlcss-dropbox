@@ -367,20 +367,20 @@ nav {
 }
 
 .sevensection {
-  height:400px;
+  height:500px;
   background-color: #000000;
 }
 
-.sevensection div {
-  padding-top: 40px;
+.sevensection ul {
+  padding-top: 80px;
 }
 
-.sevensection div ul  {
+.sevensection  ul  {
   width: calc(100% / 5);
   float: left;
 }
 
-.sevensection div ul li {
+.sevensection  ul li {
   line-height: 25px;
 }
 
@@ -389,14 +389,20 @@ nav {
   list-style: none;
 }
 
-.sevensection div ul li h3 {
+.sevensection  ul li h3 {
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .sevensection span {
   display: inline-block;
-  margin-top: 100px;
+  margin-top: 150px;
+}
+
+.sevensection hr {
+  width: 130px;
+  color: lightgray;
+  margin-bottom: 30px;
 }
 
 /* /footerlay */
