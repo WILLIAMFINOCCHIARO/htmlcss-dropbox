@@ -492,6 +492,23 @@ nav {
 
 
 
+/* hoversix section */
+
+.sixsection div p {
+  display: none;
+}
+
+.sixsection .paragraph:hover p,
+.sixsection .pp:hover p,
+.sixsection .p:hover p,
+.sixsection .ppp:hover p {
+  display: block;
+  color: gray;
+  margin-top:20px;
+  line-height: 40px;
+}
+
+
 /* /sixsection */
 
 
