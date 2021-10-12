@@ -27,6 +27,11 @@ body {
 
 header {
   border-bottom: 1px solid gray;
+  background-color: white;
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
   z-index: 99;
 }
 
@@ -39,6 +44,7 @@ nav {
   margin:0 auto;
   max-width: 1380px;
 }
+
 
 .logo,.accedi {
   width: calc(100%/2);
@@ -68,18 +74,26 @@ nav {
   padding-right: 10px;
 }
 
+.logo ul li a:hover,
+.accedi ul li a:hover {
+  padding-bottom: 23px;
+  border-bottom: 5px solid gray;
+}
+
+
 /* /header lay */
 
 /* jambo lay */
 .jambo {
-  height: 680px;
+  height: 800px;
   background-color: #b4d0e7;
+  padding-top: 80px;
 }
 
 .jambloco #title {
   font-size: 65px;
   font-weight: 600;
-  padding-top:50px;
+  padding-top:80px;
   margin-bottom:50px;
   line-height: 100px;
 }
