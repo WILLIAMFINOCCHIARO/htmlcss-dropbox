@@ -81,6 +81,37 @@ nav {
 }
 
 
+
+/* menù hover */
+
+.logo ul ul li  {
+  width: 20%;
+  text-align:left;
+  position: relative;
+  float: right;
+}
+
+.logo ul ul  {
+  background-color: lightgray;
+  display: none;
+  margin:0 auto;
+  width: 40%;
+  position: absolute;
+  top:100%;
+  left: 0;
+
+}
+
+.logo ul li:hover ul  {
+  display: block;
+}
+
+.logo ul ul li a {
+  color:black;
+  text-decoration: underline;
+}
+
+
 /* /header lay */
 
 /* jambo lay */
