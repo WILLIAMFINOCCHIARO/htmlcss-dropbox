@@ -495,9 +495,15 @@ nav {
   line-height: 25px;
 }
 
-.sevensection li,.sevensection span {
+.sevensection li ,.sevensection span,.sevensection li a {
   color:white;
   list-style: none;
+  
+}
+
+.sevensection li a {
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .sevensection  ul li h3 {
